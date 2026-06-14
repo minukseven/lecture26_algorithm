@@ -8,7 +8,7 @@ class QuickSort:
             try:
                 input_num = int(input('정렬할 숫자 입력(입력종료=0): '))
             except ValueError:
-                print('!!! 숫자만 입력하세요')
+                print('숫자만 입력하세요')
             else:
                 if input_num == 0:
                     break
